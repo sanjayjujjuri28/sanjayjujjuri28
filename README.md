@@ -1,16 +1,20 @@
-## Hi there 👋
+# Hi 👋, I'm Sanjay Jujjuri
 
-<!--
-**sanjayjujjuri28/sanjayjujjuri28** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🚀 CSE AIML Student | Java Developer | DSA Enthusiast
 
-Here are some ideas to get you started:
+> Learning to think, not just to code.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 👨‍💻 About Me
+
+- 🎓 CSE (AI & ML) at Parul University
+- 💻 Learning Java & DSA
+- 🚀 Building projects
+- 🎯 Goal: Software Engineer
+
+## 🛠️ Tech Stack
+
+Java • Python • C
+
+React • Node.js • MongoDB
+
+Git • GitHub • VS Code
