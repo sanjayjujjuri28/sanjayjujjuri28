@@ -1,35 +1,38 @@
-<h1 align="center">Hi 👋, I'm Sanjay Jujjuri</h1>
+<div align="center">
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=30&duration=3000&pause=1000&center=true&vCenter=true&width=900&lines=CSE+(AI+%26+ML)+Student;Java+Developer;DSA+Enthusiast;Problem+Solver;Aspiring+Software+Engineer" />
-</p>
+# Hi 👋, I'm Sanjay Jujjuri
 
-<p align="center">
-  <b>Learning to think, not just to code.</b>
-</p>
+### 🚀 CSE (AI & ML) Student • DSA Enthusiast • MERN Stack Developer • AI Engineer
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&weight=600&size=30&duration=3000&pause=1000&center=true&vCenter=true&width=1000&lines=CSE+(AI+%26+ML)+Student;DSA+Enthusiast;MERN+Stack+Developer;AI+Engineer;Learning+to+Think%2C+Not+Just+to+Code;Building+Skills+That+Can't+Be+Faked" />
+
+<br>
+
+> **Learning to think, not just to code.**
+
+</div>
 
 ---
 
 ## 👨‍💻 About Me
 
-🎓 Computer Science & Engineering (AI & ML) Student at Parul University
-
-💡 Passionate about problem-solving, software development, and continuous learning.
-
-🚀 Currently focused on strengthening Data Structures & Algorithms, Java development, and core Computer Science fundamentals.
-
-🎯 Long-term goal: Build impactful software and grow into a highly skilled Software Engineer.
+* 🎓 B.Tech in Computer Science & Engineering (AI & ML)
+* 🧠 Passionate about Data Structures & Algorithms
+* 🌐 MERN Stack Developer
+* 🤖 Exploring Artificial Intelligence & Machine Learning
+* 🚀 Focused on building impactful software solutions
+* 📈 Consistently improving through learning and practice
 
 ---
 
 ## 🌐 Connect With Me
 
-<p align="center">
-<a href="YOUR_LINKEDIN_URL">
+<p align="left">
+<a href="YOUR_LINKEDIN_URL" target="_blank">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
-<a href="YOUR_LEETCODE_URL">
+<a href="YOUR_LEETCODE_URL" target="_blank">
 <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
 </a>
 
@@ -40,67 +43,100 @@
 
 ---
 
-## ⚙️ Technical Skills
+## ⚡ Tech Stack
 
-### Languages
+### Programming Languages
 
 <p>
-<img src="https://skillicons.dev/icons?i=java,python,c,html,css,javascript" />
+<img src="https://skillicons.dev/icons?i=java,python,c,javascript" />
 </p>
 
-### Technologies & Tools
+### Frontend Development
 
 <p>
-<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,git,github,vscode" />
+<img src="https://skillicons.dev/icons?i=html,css,react,tailwind,vite" />
+</p>
+
+### Backend Development
+
+<p>
+<img src="https://skillicons.dev/icons?i=nodejs,express" />
+</p>
+
+### Database & Cloud
+
+<p>
+<img src="https://skillicons.dev/icons?i=mongodb" />
+</p>
+
+### Tools & Technologies
+
+<p>
+<img src="https://skillicons.dev/icons?i=git,github,vscode,postman" />
 </p>
 
 ---
 
-## 📚 Areas of Interest
+## 📚 Currently Learning
 
 * Data Structures & Algorithms
-* Object-Oriented Programming
-* Database Management Systems
-* Software Development
-* Web Technologies
+* Advanced MERN Development
+* Database Design
+* System Design Fundamentals
 * Artificial Intelligence & Machine Learning
 
 ---
 
-## 📊 GitHub Analytics
+## 📊 GitHub Stats
 
 <p align="center">
+
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=sanjayjujjuri28&show_icons=true&theme=tokyonight&hide_border=true"/>
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sanjayjujjuri28&layout=compact&theme=tokyonight&hide_border=true"/>
+
 </p>
 
 ---
 
-## 🔥 Contribution Streak
+## 🔥 GitHub Streak
 
 <p align="center">
+
 <img src="https://streak-stats.demolab.com?user=sanjayjujjuri28&theme=tokyonight&hide_border=true"/>
+
 </p>
 
 ---
 
-## 🎯 Current Focus
+## 📈 Activity Graph
 
-* Strengthening DSA foundations
-* Solving coding problems consistently
-* Building real-world development skills
-* Improving software design and coding practices
-* Preparing for software engineering opportunities
+<p align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=sanjayjujjuri28&theme=tokyo-night&hide_border=true"/>
+
+</p>
+
+---
+
+## 🎯 2026 Goals
+
+* 🚀 Master Data Structures & Algorithms
+* 🌐 Build Production-Ready MERN Applications
+* 🤖 Develop AI/ML Projects
+* 💼 Secure Top Software Engineering Opportunities
+* 📚 Continuously Learn and Grow
 
 ---
 
 ## 💭 Philosophy
 
-> **"The goal isn't to solve problems. It's to become the person who can solve any problem."**
+> **The goal isn't to solve problems. It's to become the person who can solve any problem.**
 
 ---
 
-<p align="center">
-  <i>Building skills today that opportunities will reward tomorrow.</i>
-</p>
+<div align="center">
+
+### ⚡ Building skills today that opportunities will reward tomorrow.
+
+</div>
