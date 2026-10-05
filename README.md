@@ -208,7 +208,7 @@ GitHub
 
 **Dashboard:**
 
-https://hookrelay-oebx.onrender.com/dashboard.html
+https://hookrelay-oebx.onrender.com
 
 ---
 
