@@ -4,7 +4,7 @@
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Python+Backend+Developer;FastAPI+%7C+PostgreSQL+%7C+SQLAlchemy;DSA+%7C+Problem+Solving;AI%2FML+Enthusiast;Building+Real+World+Systems;Code.+Build.+Solve.+Repeat."/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Python+Backend+Developer;FastAPI+%7C+PostgreSQL+%7C+Redis;Caching+%7C+Rate+Limiting+%7C+Webhooks;DSA+%7C+Problem+Solving;AI%2FML+Enthusiast;Building+Real+World+Systems;Code.+Build.+Solve.+Repeat."/>
 
 <br><br>
 
@@ -55,9 +55,9 @@ and turn ideas into working software.
 
 ### PROGRAMMING
 
-<img src="https://skillicons.dev/icons?i=python,java,c"/>
+<img src="https://skillicons.dev/icons?i=python,java,c,js,html,css"/>
 
-`Python` · `Java` · `C` · `SQL`
+`Python` · `Java` · `C` · `SQL` · `JavaScript` · `HTML` · `CSS`
 
 ### BACKEND
 
@@ -65,7 +65,7 @@ and turn ideas into working software.
 
 `FastAPI` · `Django` · `REST APIs` · `Pydantic`
 
-`SQLAlchemy` · `Alembic` · `JWT` · `OAuth2`
+`SQLAlchemy` · `Alembic` · `JWT` · `OAuth2` · `Redis`
 
 ### DATA & AI
 
@@ -75,7 +75,7 @@ and turn ideas into working software.
 
 <img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github,vscode,postman"/>
 
-`AWS` · `Docker` · `Linux` · `Git` · `GitHub` · `Postman`
+`AWS` · `Docker` · `Linux` · `Git` · `GitHub` · `Postman` · `Pytest`
 
 </div>
 
@@ -147,25 +147,73 @@ A production-style webhook platform focused on **reliable event delivery, failur
 
 ---
 
-# `> another.build`
+# `> featured.build.02`
 
-## 📋 Task Management System
+## 🔗 ShortX
 
-A full-stack task management application demonstrating the complete flow between a frontend, FastAPI backend, SQLAlchemy ORM, and PostgreSQL database.
+### `URL Shortener with Redis Caching, Rate Limiting & Click Analytics`
+
+A layered backend that shortens URLs, serves redirects through a **Redis cache-aside layer**, protects endpoints with an **atomic Redis rate limiter**, and tracks clicks with a 7-day analytics view.
+
+```text
+              GET /{short_code}
+                     │
+                     ▼
+            ┌─────────────────┐
+            │   Rate Limiter  │  100 req/min/IP (Redis INCR + EXPIRE)
+            └────────┬────────┘
+                     │
+                     ▼
+            ┌─────────────────┐
+            │      Redis      │
+            └────────┬────────┘
+              ┌──────┴──────┐
+              ▼             ▼
+            HIT           MISS
+              │             │
+              │             ▼
+              │        PostgreSQL
+              │             │
+              │        Cache (24h TTL)
+              └──────┬──────┘
+                     ▼
+              Record click event
+                     ▼
+             307 Redirect
+```
 
 ### Features
 
-`CREATE` · `READ` · `UPDATE` · `DELETE`
-
-`REST API` · `PostgreSQL` · `SQLAlchemy`
-
-`Pydantic` · `JavaScript API Integration`
+- ⚡ Redis cache-aside redirects with 24-hour TTL
+- 🧹 Cache invalidation on link deletion
+- 🚦 Redis-based fixed-window rate limiting with `429` and `Retry-After`
+- 🔑 JWT authentication with Bcrypt password hashing
+- 🔢 Base62 short-code generation
+- 📊 Dashboard stats and 7-day click trend chart
+- 🛡️ Graceful fallback when Redis is unavailable
+- 🧪 17 automated Pytest tests
+- 🐳 Docker Compose setup (App + PostgreSQL + Redis)
+- 🌐 Production deployment
 
 ### Stack
 
-`Python` `FastAPI` `PostgreSQL` `SQLAlchemy`
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Redis`
 
-`Pydantic` `HTML` `CSS` `JavaScript` `Uvicorn`
+`Docker` `Pytest` `JWT` `Bcrypt` `HTML` `CSS` `JavaScript`
+
+### Live
+
+<a href="https://shortx-95k9.onrender.com">
+<img src="https://img.shields.io/badge/🔗%20LIVE%20APP-00E5FF?style=for-the-badge"/>
+</a>
+
+<a href="https://shortx-95k9.onrender.com/docs">
+<img src="https://img.shields.io/badge/📚%20API%20DOCS-050505?style=for-the-badge&labelColor=050505&color=00E5FF"/>
+</a>
+
+<a href="https://github.com/sanjayjujjuri28/ShortX">
+<img src="https://img.shields.io/badge/SOURCE%20CODE-050505?style=for-the-badge&logo=github&logoColor=00E5FF"/>
+</a>
 
 ---
 
@@ -184,14 +232,12 @@ A full-stack task management application demonstrating the complete flow between
              ▼                 ▼
           Pydantic         Business Logic
                                 │
-                                ▼
-                           SQLAlchemy
-                                │
-                                ▼
-                           PostgreSQL
-                                │
-                                ▼
-                         Database Layer
+                     ┌──────────┴──────────┐
+                     ▼                     ▼
+                   Redis              SQLAlchemy
+              (cache + limits)             │
+                                           ▼
+                                      PostgreSQL
 ```
 
 ### Backend Concepts
@@ -210,13 +256,17 @@ A full-stack task management application demonstrating the complete flow between
 - JWT authentication
 - OAuth2
 - Password hashing
+- Redis caching (cache-aside)
+- Cache invalidation
+- Rate limiting
 - Environment variables
 - Background tasks
 - Webhooks
 - Retry mechanisms
 - Exponential backoff
 - Logging
-- API testing
+- API testing with Pytest
+- Docker & Docker Compose
 - Deployment
 
 ---
