@@ -1,10 +1,10 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:071827,100:00E5FF&height=230&section=header&text=SANJAY%20JUJJURI&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=BUILDING%20SYSTEMS%20THAT%20ACTUALLY%20WORK&descAlignY=61&descSize=17&animation=fadeIn"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:071827,100:00E5FF&height=230&section=header&text=SANJAY%20JUJJURI&fontSize=52&fontColor=FFFFFF&fontAlignY=38&desc=BACKEND%20DEVELOPER%20%7C%20DSA%20%7C%20AI%2FML&descAlignY=61&descSize=18&animation=fadeIn"/>
 
 <br>
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Backend+Engineer+in+Progress;Python+%7C+FastAPI+%7C+PostgreSQL;DSA+%7C+System+Design+%7C+AI%2FML;Build+it.+Break+it.+Understand+it.;Turning+ideas+into+real+systems."/>
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=21&pause=1200&color=00E5FF&center=true&vCenter=true&width=900&lines=Python+Backend+Developer;FastAPI+%7C+PostgreSQL+%7C+SQLAlchemy;DSA+%7C+Problem+Solving;AI%2FML+Enthusiast;Building+Real+World+Systems;Code.+Build.+Solve.+Repeat."/>
 
 <br><br>
 
@@ -35,21 +35,17 @@ Sanjay Jujjuri
 ────────────────────────────────────────
 
 B.Tech CSE (AI & ML)
+Parul University
 
-Backend-focused developer building with Python.
+Python Backend Developer
+DSA Practitioner
+AI/ML Enthusiast
 
-I care about:
-→ clean architecture
-→ APIs that make sense
-→ databases that are designed properly
-→ systems that handle failure
-→ solving problems instead of memorizing solutions
-
-Currently:
-Backend Engineering + DSA + AI/ML
+I build backend systems, solve problems,
+and turn ideas into working software.
 ```
 
-> **I don't want to just write code. I want to understand what happens after the code runs.**
+> **I don't just write code. I understand how the system works.**
 
 ---
 
@@ -57,23 +53,29 @@ Backend Engineering + DSA + AI/ML
 
 <div align="center">
 
-### `CORE`
+### PROGRAMMING
 
 <img src="https://skillicons.dev/icons?i=python,java,c"/>
 
-### `BACKEND`
+`Python` · `Java` · `C` · `SQL`
+
+### BACKEND
 
 <img src="https://skillicons.dev/icons?i=fastapi,django,postgresql,redis"/>
 
-### `DATA / AI`
+`FastAPI` · `Django` · `REST APIs` · `Pydantic`
 
-<img src="https://skillicons.dev/icons?i=python"/>
+`SQLAlchemy` · `Alembic` · `JWT` · `OAuth2`
 
-`NumPy` · `Pandas` · `Machine Learning`
+### DATA & AI
 
-### `TOOLS / CLOUD`
+`NumPy` · `Pandas` · `Machine Learning` · `Data Analysis`
 
-<img src="https://skillicons.dev/icons?i=git,github,docker,aws,linux,vscode,postman"/>
+### CLOUD & TOOLS
+
+<img src="https://skillicons.dev/icons?i=aws,docker,linux,git,github,vscode,postman"/>
+
+`AWS` · `Docker` · `Linux` · `Git` · `GitHub` · `Postman`
 
 </div>
 
@@ -85,7 +87,7 @@ Backend Engineering + DSA + AI/ML
 
 ### `Reliable Webhook Delivery Platform`
 
-**HookRelay** is my flagship backend project — built to go beyond basic CRUD and understand how real systems deal with **events, failures, retries, signatures, persistence, and delivery tracking.**
+A production-style webhook platform focused on **reliable event delivery, failure handling, retries, security, and delivery tracking.**
 
 ```text
                    EVENT
@@ -110,144 +112,171 @@ Backend Engineering + DSA + AI/ML
               │   WEBHOOK   │
               └──────┬──────┘
                      │
-             ┌───────┴────────┐
-             ▼                ▼
-         SUCCESS           FAILURE
-                              │
-                              ▼
-                       RETRY + BACKOFF
+              ┌──────┴──────┐
+              ▼             ▼
+          SUCCESS        FAILURE
+                            │
+                            ▼
+                     RETRY + BACKOFF
 ```
 
-### Built with
+### Features
 
-`Python` `FastAPI` `PostgreSQL` `SQLAlchemy` `Alembic`  
-`Pydantic` `HTTPX` `HMAC` `REST API` `Render`
-
-### What makes it interesting
-
-- 🔐 HMAC webhook signatures
-- 🔄 Automatic retry mechanism
+- 🔐 HMAC signature generation & verification
+- 🔄 Automatic retries
 - 📈 Exponential backoff
-- 📋 Delivery history
-- ❌ Failure tracking
+- 📋 Delivery tracking & logs
+- ❌ Failure handling
 - ⚙️ Background processing
 - 🗄️ PostgreSQL persistence
 - 🧩 SQLAlchemy ORM
 - 🛠️ Alembic migrations
 - 🌐 Production deployment
 
-### Live System
+### Stack
+
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy`
+
+`Alembic` `Pydantic` `HTTPX` `HMAC` `REST API`
+
+### Live
 
 <a href="https://hookrelay-oebx.onrender.com">
-<img src="https://img.shields.io/badge/⚡%20OPEN%20HOOKRELAY-00E5FF?style=for-the-badge&logoColor=black"/>
+<img src="https://img.shields.io/badge/⚡%20LIVE%20DASHBOARD-00E5FF?style=for-the-badge"/>
 </a>
 
 ---
 
 # `> another.build`
 
-## 📋 Task Management API
+## 📋 Task Management System
 
-A full-stack task management system built while learning the complete backend flow:
-
-```text
-Client
-  ↓
-FastAPI
-  ↓
-Pydantic
-  ↓
-SQLAlchemy
-  ↓
-PostgreSQL
-```
+A full-stack task management application demonstrating the complete flow between a frontend, FastAPI backend, SQLAlchemy ORM, and PostgreSQL database.
 
 ### Features
 
-`CRUD` · `REST API` · `PostgreSQL` · `SQLAlchemy` · `Pydantic`
+`CREATE` · `READ` · `UPDATE` · `DELETE`
 
-`JavaScript API Integration` · `Task Management` · `Database Persistence`
+`REST API` · `PostgreSQL` · `SQLAlchemy`
+
+`Pydantic` · `JavaScript API Integration`
+
+### Stack
+
+`Python` `FastAPI` `PostgreSQL` `SQLAlchemy`
+
+`Pydantic` `HTML` `CSS` `JavaScript` `Uvicorn`
+
+---
+
+# `> backend`
+
+```text
+                    CLIENT
+                      │
+                      ▼
+                 REST API
+                      │
+                      ▼
+                  FastAPI
+                      │
+             ┌────────┴────────┐
+             ▼                 ▼
+          Pydantic         Business Logic
+                                │
+                                ▼
+                           SQLAlchemy
+                                │
+                                ▼
+                           PostgreSQL
+                                │
+                                ▼
+                         Database Layer
+```
+
+### Backend Concepts
+
+- REST API architecture
+- HTTP methods & status codes
+- Request / response handling
+- Pydantic validation
+- Dependency injection
+- CRUD operations
+- SQLAlchemy ORM
+- PostgreSQL
+- Database relationships
+- Transactions
+- Alembic migrations
+- JWT authentication
+- OAuth2
+- Password hashing
+- Environment variables
+- Background tasks
+- Webhooks
+- Retry mechanisms
+- Exponential backoff
+- Logging
+- API testing
+- Deployment
 
 ---
 
 # `> problem.solving`
 
-### DSA isn't a checkbox.
+### DSA
 
-It's how I train myself to think.
+`Arrays` · `Strings` · `Linked Lists` · `Stacks` · `Queues`
 
-```text
-                    PROBLEM
-                       │
-                       ▼
-                 UNDERSTAND
-                       │
-                       ▼
-                  FIND PATTERN
-                       │
-                       ▼
-                  BUILD LOGIC
-                       │
-                       ▼
-                   OPTIMIZE
-                       │
-                       ▼
-                    SOLVE
-```
+`Hashing` · `Recursion` · `Binary Search` · `Trees`
 
-Currently working on:
+`BST` · `Heaps` · `Graphs` · `Greedy`
 
-`Arrays` `Strings` `Linked Lists` `Hashing`
+`Dynamic Programming` · `Backtracking`
 
-`Binary Search` `Trees` `Graphs` `Greedy`
+`Sliding Window` · `Two Pointers` · `Prefix Sum`
 
-`Dynamic Programming` `Recursion` `Sliding Window`
+### Algorithms
 
-`Two Pointers` `Backtracking`
+`Merge Sort` · `Quick Sort` · `BFS` · `DFS`
+
+`Dijkstra` · `Prim's` · `Kruskal's`
+
+`Knapsack` · `Huffman Coding` · `Activity Selection`
+
+`Strassen's Matrix Multiplication` · `Master Theorem`
 
 ---
 
-# `> engineering`
-
-I'm building toward becoming a **strong software engineer**, not just a framework developer.
+# `> computer.science`
 
 ```text
-                SOFTWARE ENGINEERING
-                         │
-        ┌────────────────┼────────────────┐
-        ↓                ↓                ↓
-      BACKEND           DSA             DESIGN
-        │                │                │
-     FastAPI          LeetCode           LLD
-     PostgreSQL       Algorithms         System Design
-     SQLAlchemy       Problem Solving    Architecture
-     APIs
-        │
-        ▼
-     CLOUD
-        │
-     AWS · Linux · Deployment
+DSA
+OOP
+Operating Systems
+Computer Networks
+DBMS
+Low Level Design
+System Design
+Software Engineering
 ```
 
 ---
 
-# `> current.mission`
+# `> cloud`
 
-```text
-01  →  Become excellent at DSA
+<div align="center">
 
-02  →  Master Python backend engineering
+<img src="https://skillicons.dev/icons?i=aws,docker,linux"/>
 
-03  →  Go deep into FastAPI + PostgreSQL
+</div>
 
-04  →  Understand system design
+### Hands-on with
 
-05  →  Build production-grade systems
+`EC2` · `VPC` · `Subnets` · `Security Groups`
 
-06  →  Combine backend engineering with AI/ML
+`EBS` · `RDS` · `MySQL` · `Linux`
 
-07  →  Prepare for high-level software engineering roles
-```
+`Cloud Networking` · `Deployment` · `Environment Configuration`
 
 ---
 
@@ -276,15 +305,13 @@ I'm building toward becoming a **strong software engineer**, not just a framewor
 <br>
 
 ```text
-I don't chase technologies.
-I chase understanding.
-
-I don't just build projects.
-I build proof.
-
-I don't fear difficult problems.
-I use them to level up.
+I build real projects.
+I solve real problems.
+I learn from what breaks.
+I understand what I build.
 ```
+
+### ⚡ `Code • Build • Solve • Repeat`
 
 </div>
 
@@ -294,8 +321,6 @@ I use them to level up.
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,50:071827,100:050505&height=140&section=footer"/>
 
-### `⚡ Still learning. Still building. Still getting better.`
-
-<sub>© Sanjay Jujjuri</sub>
+### `Still building. Still improving.`
 
 </div>
